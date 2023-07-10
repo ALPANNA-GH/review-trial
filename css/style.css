@@ -1,8 +1,13 @@
 body {
     display: fixed;
-    background-color: rgb(223, 225, 225);
+
+    background-color: rgb(241, 233, 211);
     text-align: center;
     
+}
+
+p {
+    color: antiquewhite;
 }
 
 .inputtext {
@@ -16,14 +21,19 @@ h1 {
 
 div {
     width: 600px;
+
     background-color: rgb(42, 47, 143, 0.7);
+
     padding: 20px;
-    margin: auto;
+    margin: 25px auto;
     display: block;
     text-align: left;
     justify-content: left;
+
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     margin: 25px auto;
     border-radius: 10px;
+
 }
 
 label {
@@ -33,5 +43,22 @@ label {
     width: 200px;
     font-size: 18px;
     padding: 10px;
+    margin: 10px;
+}
+
+input, select, textarea{
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 10px;
+    color: slateblue;
+    border: none;
+}
+
+button {
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
     margin: 10px;
 }
