@@ -1,7 +1,9 @@
 body {
     display: fixed;
+
     background-color: rgb(241, 233, 211);
     text-align: center;
+    
 }
 
 p {
@@ -9,8 +11,8 @@ p {
 }
 
 .inputtext {
-
     width: 300px;
+    
 }
 
 h1 {
@@ -19,14 +21,19 @@ h1 {
 
 div {
     width: 600px;
-    background-color: rgb(32, 44, 84);
+
+    background-color: rgb(42, 47, 143, 0.7);
+
     padding: 20px;
     margin: 25px auto;
     display: block;
     text-align: left;
     justify-content: left;
+
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 25px auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
 }
 
 label {
