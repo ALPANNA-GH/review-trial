@@ -1,7 +1,11 @@
 body {
     display: fixed;
-    background-color: aqua;
+    background-color: rgb(241, 233, 211);
     text-align: center;
+}
+
+p {
+    color: antiquewhite;
 }
 
 .inputtext {
@@ -15,7 +19,7 @@ h1 {
 
 div {
     width: 600px;
-    background-color: cadetblue;
+    background-color: rgb(32, 44, 84);
     padding: 20px;
     margin: auto;
     display: block;
@@ -30,5 +34,22 @@ label {
     width: 200px;
     font-size: 18px;
     padding: 10px;
+    margin: 10px;
+}
+
+input, select{
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 10px;
+    color: slateblue;
+    border: none;
+}
+
+button {
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
     margin: 10px;
 }
