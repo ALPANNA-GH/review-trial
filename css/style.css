@@ -1,12 +1,13 @@
 body {
     display: fixed;
-    background-color: aqua;
+    background-color: rgb(223, 225, 225);
     text-align: center;
+    
 }
 
 .inputtext {
-
     width: 300px;
+    
 }
 
 h1 {
@@ -15,12 +16,14 @@ h1 {
 
 div {
     width: 600px;
-    background-color: cadetblue;
+    background-color: rgb(42, 47, 143, 0.7);
     padding: 20px;
     margin: auto;
     display: block;
     text-align: left;
     justify-content: left;
+    margin: 25px auto;
+    border-radius: 10px;
 }
 
 label {
