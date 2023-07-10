@@ -21,10 +21,12 @@ div {
     width: 600px;
     background-color: rgb(32, 44, 84);
     padding: 20px;
-    margin: auto;
+    margin: 25px auto;
     display: block;
     text-align: left;
     justify-content: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 label {
@@ -37,7 +39,7 @@ label {
     margin: 10px;
 }
 
-input, select{
+input, select, textarea{
     border-radius: 5px;
     padding: 3px 10px;
     margin: 10px;
